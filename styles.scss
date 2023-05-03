@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(0, 234, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+#message {
+  display: flex;
+}
+
+.player1 {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.player2 {
+  background-color: rgb(14, 255, 14);
+  color: rgb(14, 255, 14);
+}
+
+.game_table {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3300ff;
+  border-radius: 5%;
+  padding: 6dvh;
+  align-items: center;
+}
+
+.onclick {
+  width: 200px;
+  height: 100px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  border: 1 px solid rgb(0, 47, 255);
+  border-radius: 100%;
+  padding: 1px;
+  content: none;
+  color: white;
+  background-color: white;
+}
+
+.reset-game {
+  width: 200px;
+  border-radius: 10%;
+}
+
+.adios {
+  width: 200px;
+  border-radius: 10%;
+}
+#message-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  background-color: #ffc300;
+  border: 5px solid #ff69b4;
+  border-radius: 10px;
+  display: none;
+}
+.joke-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.reset-game {
+  width: 40%;
+  border-radius: 10%;
+  align-content: center;
+  text-align: center;
+  background-color: gray;
+  display: flex;
+  text-align: justify;
+}
+
+#message {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 40px;
+  color: #ff69b4;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.Exit {
+  width: 40%;
+  border-radius: 10%;
+  align-content: center;
+  text-align: center;
+  background-color: bisque;
+  display: flex;
+  text-align: center;
+}
+td {
+  padding: 10px;
+  margin: 10px;
+}
